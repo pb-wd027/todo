@@ -1,14 +1,11 @@
+function addItem(){
 
-//DOM find the elements
+    //alert('please add item');
+    let item=document.getElementById('itemInput').value; //input value
+    let textItem=document.createTextNode(item);//
+    let newItem=document.createElement("li");
+     newItem.appendChild(textItem);
+     document.getElementById("todoListitem").appendChild(newItem);
 
-const form=document.querySelector('#itemForm');
-const inputItem= document.querySelector('#itemInput');
-const listItems=document.querySelector("#itemlist");
-const filters= document.querySelectorAll(".nav-item");
-
-
-
-// create an empty array
-
-let todoitems=[];
-
+}
+document.getElementById("btn-primary-add").addEventListener("click", addItem);

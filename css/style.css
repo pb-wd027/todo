@@ -1,32 +1,14 @@
-h1 {
-    display: flex;
+body{
+    background-color: #ffe4c4;
     align-items: center;
-
-}
-
-.darkmode--activated .todo__field {
-    background: var(--dark-medium-color);
-    color: var(--dark-primary-color);
-    border-color: var(--dark-hard-color);
-}
-.todo__field {
-    background: var(--light-soft-color);
-    color: var(--light-primary-color);
-    border-color: var(--light-hard-color);
-}
-
-
-
-.todo__field {
-    display: flex;
-    transition: .2s ease;
-    border: 0;
-    border-bottom: 5px solid;
-    padding: 5px 10px;
+    height:100vh;
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
-    width: 100%;
-    font-family: monospace;
+}
+
+.headerName{
     text-align: center;
-    font-size: 2em;
-    background: 0 0;
+    margin-top: 25px;
+
 }
