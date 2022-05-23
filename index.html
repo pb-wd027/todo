@@ -18,18 +18,20 @@
   <div class="container">
     
 <!--   Div 1 -->
-    <div class="row"> 
+    <!-- <div class="row">  -->
       <h3 class="headerName" >TO DO LIST</h3>
 
       <form id="itemForm-todo"> 
         <div class="input-group mb-3">
           <input type="text" class="form-control" id="itemInput" value="" placeholder="e.g: Tasks...">
-          <button  type="button"class="btn btn-primary-add " onclick="addItem()">ADD</button> 
+          <!-- <button type="button"id="btn-primary-add " onclick="addItem()">ADD</button>  -->
+          <input type="button" id="btn-primary-add"  value="Add" />
         </div>
       </form>
-
-      <ol id="todoListitem"> </ol>
-    </div>
+     <!-- <div ><ol id="todoListitem"> </ol></div> -->
+     <div  class="container-items"id="todo-item-lists">
+      <div id="task-list-content"></div></div>
+    <!-- </div> -->
   </div>
 
   <script src="./js/main.js"></script>

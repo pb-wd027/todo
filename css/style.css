@@ -1,14 +1,63 @@
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Fira sans", sans-serif;
+}
+
+
 body{
-    background-color: #ffe4c4;
-    align-items: center;
-    height:100vh;
-    width:100%;
+
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: rgb(8, 6, 6);
+	background-color: #ffe4c4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: block;
+
 }
 
 .headerName{
+
+    font-size: 2.5rem;
+	font-weight: 300;
+	color:saddlebrown;
+	margin-bottom: 1rem;
     text-align: center;
-    margin-top: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+#btn-primary-add{
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #d3cbd8;
+    border: unset;
+    color: rgb(223, 136, 136);
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+    outline: 0;
+    position: relative;
+}
+#itemForm-todo{
+    
+}
+button{
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #d3cbd8;
+    border: unset;
+    color: rgb(48, 31, 31);
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+    outline: 0;
+    position: relative;
+}
+
+.container-items{
+    padding: 1.5rem;
+	border-radius: 1.5rem;
+	margin-right: 0.5rem;
 
 }
